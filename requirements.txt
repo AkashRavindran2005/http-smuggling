@@ -1,0 +1,25 @@
+# Core dependencies
+colorama>=0.4.6        # Colored terminal output
+rich>=13.0.0           # Rich text and formatting
+click>=8.1.0           # CLI framework
+pyyaml>=6.0            # YAML configuration
+
+# Networking
+h2>=4.1.0              # HTTP/2 support
+hpack>=4.0.0           # HTTP/2 header compression
+
+# Security/Crypto
+cryptography>=41.0.0   # TLS/SSL support
+
+# Async support  
+aiohttp>=3.9.0         # Async HTTP (for comparison)
+
+# Reporting
+jinja2>=3.1.0          # HTML report templates
+markdown>=3.5.0        # Markdown support
+
+# Development
+pytest>=7.4.0          # Testing framework
+pytest-asyncio>=0.21.0 # Async test support
+black>=23.0.0          # Code formatting
+mypy>=1.5.0            # Type checking
